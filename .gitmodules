@@ -1,0 +1,3 @@
+[submodule "items-js-core"]
+	path = items-js-core
+	url = git@github.com:darkstar022801/items-js-core.git

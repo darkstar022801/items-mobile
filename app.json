@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "items-mobile",
+    "slug": "items-mobile",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./core-module/_assets/icon.png",
+    "splash": {
+      "image": "./core-module/_assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.items.items-mobile",
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "Enabling Face ID allows you quick and secure access to your account.",
+        "NSCameraUsageDescription": "This app uses the camera to scan barcodes."
+      }
+    },
+    "android": {
+      "package": "com.items.items-mobile",
+      "versionCode": 1
+    }
+  }
+}
